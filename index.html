@@ -4,212 +4,531 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Ciara Mosley | Customer Experience Leader</title>
-<meta name="description" content="Ciara Mosley: Customer Experience leader with 8+ years building and scaling support operations, AI support automation, and multi-tier teams. Open to remote CX leadership roles.">
+<meta name="description" content="Ciara Mosley: Customer Experience leader with 8+ years building and scaling support operations, AI support automation, and multi-tier teams. Co-Founder & COO of TK Hub LLC. Open to remote CX leadership roles.">
 <meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#0B2A2E">
+<link rel="icon" href="assets/tkhub-logo.png" type="image/png">
+<link rel="preload" href="assets/fonts/inter-var.woff2" as="font" type="font/woff2" crossorigin>
 <style>
-:root{--ink:#14202e;--muted:#5a6878;--bg:#f7f9fc;--card:#fff;--line:#e3e9f1;--accent:#1F3A5F;--accent2:#2E6DA4;--tint:#eaf2fb}
-*{box-sizing:border-box;margin:0;padding:0}
-html{scroll-behavior:smooth}
-body{font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--ink);background:var(--bg);line-height:1.6;font-size:16px}
-a{color:var(--accent2);text-decoration:none}a:hover{text-decoration:underline}
-.wrap{max-width:1080px;margin:0 auto;padding:0 24px}
-nav{position:sticky;top:0;z-index:10;background:rgba(255,255,255,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
-nav .wrap{display:flex;align-items:center;justify-content:space-between;height:60px}
-nav .brand{font-weight:700;color:var(--accent);letter-spacing:.2px}
-nav ul{display:flex;gap:22px;list-style:none;font-size:14px}
-nav ul a{color:var(--muted)}nav ul a:hover{color:var(--accent)}
-header.hero{background:linear-gradient(135deg,var(--accent) 0%,var(--accent2) 100%);color:#fff;padding:88px 0 80px}
-.badge{display:inline-flex;align-items:center;gap:8px;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.28);padding:6px 14px;border-radius:999px;font-size:13px;font-weight:600}
-.dot{width:8px;height:8px;border-radius:50%;background:#5ee39a;box-shadow:0 0 0 3px rgba(94,227,154,.25)}
-.hero h1{font-size:clamp(38px,6vw,60px);line-height:1.08;margin:20px 0 12px;letter-spacing:-1px}
-.hero .headline{font-size:clamp(17px,2.2vw,21px);opacity:.95;max-width:760px}
-.hero .meta{margin-top:14px;opacity:.85;font-size:15px}
-.btns{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}
-.btn{display:inline-block;padding:12px 22px;border-radius:10px;font-weight:600;font-size:15px}
-.btn.primary{background:#fff;color:var(--accent)}
-.btn.ghost{border:1px solid rgba(255,255,255,.55);color:#fff}
-.btn:hover{text-decoration:none;transform:translateY(-1px)}
-section{padding:72px 0}
-section:nth-of-type(even){background:#fff}
-.eyebrow{color:var(--accent2);font-weight:700;font-size:13px;letter-spacing:1.4px;text-transform:uppercase}
-h2{font-size:clamp(26px,3.4vw,34px);margin:6px 0 26px;letter-spacing:-.4px;color:var(--accent)}
-h3{font-size:18px;margin-bottom:6px}
-.about{display:grid;grid-template-columns:1.6fr 1fr;gap:40px}
-.about p{margin-bottom:14px;color:#2b3a4b}
-.facts{background:var(--tint);border-radius:14px;padding:24px;font-size:15px}
-.facts dt{font-weight:700;color:var(--accent);margin-top:12px}.facts dt:first-child{margin-top:0}
-.facts dd{color:#33475b}
-.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:18px}
-.stat{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:22px}
-section:nth-of-type(even) .stat{background:var(--bg)}
-.stat .n{font-size:32px;font-weight:800;color:var(--accent2);letter-spacing:-.5px;line-height:1.1}
-.stat .l{color:var(--muted);font-size:14.5px;margin-top:6px}
-.timeline{position:relative;padding-left:28px;border-left:2px solid var(--line)}
-.job{position:relative;margin-bottom:38px}
-.job:before{content:"";position:absolute;left:-36px;top:6px;width:14px;height:14px;border-radius:50%;background:#fff;border:3px solid var(--accent2)}
-.job .top{display:flex;flex-wrap:wrap;justify-content:space-between;gap:6px 16px}
-.job .co{color:var(--accent2);font-weight:600}
-.job .when{color:var(--muted);font-size:14px;white-space:nowrap}
-.job .ctx{color:var(--muted);font-size:15px;margin:6px 0 8px}
-.job ul{padding-left:20px;color:#2b3a4b}.job li{margin:5px 0}
-.skills{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px}
-.skill{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:22px}
-section:nth-of-type(even) .skill{background:var(--bg)}
-.skill h3{color:var(--accent);font-size:16px;margin-bottom:12px}
-.tags{display:flex;flex-wrap:wrap;gap:8px}
-.tag{background:var(--tint);color:var(--accent);border-radius:999px;padding:5px 12px;font-size:13.5px;font-weight:500}
-.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:20px}
-.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:26px;display:flex;flex-direction:column}
-section:nth-of-type(even) .card{background:var(--bg)}
-.card .k{font-size:12.5px;font-weight:700;color:var(--accent2);text-transform:uppercase;letter-spacing:1px}
-.card h3{margin:8px 0 10px;color:var(--accent)}
-.card p{color:#33475b;font-size:15px}
-.card .lbl{font-weight:700;color:var(--ink);font-size:13.5px;margin-top:12px}
-.card .result{margin-top:auto;padding-top:16px;font-weight:700;color:var(--accent2)}
-.quote{margin-top:28px;border-left:4px solid var(--accent2);background:var(--tint);padding:18px 22px;border-radius:0 12px 12px 0;color:#2b3a4b;font-style:italic}
-.edu{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px;margin-top:22px}
-.contact{text-align:center}
-.contact p{color:var(--muted);max-width:620px;margin:0 auto 26px}
-.contact .btns{justify-content:center}
-.contact .btn.primary{background:var(--accent);color:#fff}
-.contact .btn.ghost{border-color:var(--accent);color:var(--accent)}
-footer{padding:28px 0;text-align:center;color:var(--muted);font-size:13.5px;border-top:1px solid var(--line)}
-@media (max-width:760px){nav ul{display:none}.about{grid-template-columns:1fr}header.hero{padding:64px 0 56px}section{padding:56px 0}.job .when{white-space:normal}}
-@media print{nav{display:none}header.hero{background:var(--accent)!important;-webkit-print-color-adjust:exact;print-color-adjust:exact}}
+@font-face{font-family:"Inter";src:url(assets/fonts/inter-var.woff2) format("woff2");font-weight:100 900;font-display:swap}
+@font-face{font-family:"Instrument Serif";src:url(assets/fonts/instrument-serif-italic.woff2) format("woff2");font-style:italic;font-display:swap}
+:root{
+--ink:#0B2A2E;--text:#24393D;--muted:#5D7276;--line:#E2EAEA;--bg:#fff;--soft:#F4F8F7;
+--accent:#0E7C74;--accent-2:#0A5F59;--accent-soft:#E3F3F1;--coral:#E8664F;--coral-soft:#FDECE8;--gold:#F2B544;
+--r:18px;--sh-sm:0 1px 2px rgba(11,42,46,.06),0 1px 3px rgba(11,42,46,.05);--sh:0 14px 34px -14px rgba(11,42,46,.22),0 2px 6px rgba(11,42,46,.05);--sh-lg:0 30px 60px -22px rgba(11,42,46,.32);
+--font:"Inter",ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;--serif:"Instrument Serif",Georgia,serif;--ease:cubic-bezier(.2,.7,.2,1)}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:76px;-webkit-text-size-adjust:100%}
+body{font-family:var(--font);color:var(--text);background:var(--bg);line-height:1.62;font-size:16.5px;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+img{display:block;max-width:100%}
+a{color:var(--accent)}
+strong{color:var(--ink);font-weight:650}
+.container{max-width:1160px;margin:0 auto;padding:0 24px}
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.skip{position:absolute;left:16px;top:-60px;z-index:200;background:var(--ink);color:#fff;padding:10px 16px;border-radius:8px;transition:top .2s}.skip:focus{top:12px}
+:focus-visible{outline:3px solid var(--coral);outline-offset:3px;border-radius:6px}
+
+/* buttons */
+.btn{display:inline-flex;align-items:center;gap:9px;padding:13px 22px;border-radius:12px;font-weight:600;font-size:15px;text-decoration:none;border:1px solid transparent;transition:transform .22s var(--ease),box-shadow .22s,background-color .22s,color .22s,border-color .22s;white-space:nowrap}
+.btn svg{flex:none}
+.btn-primary{background:var(--coral);color:#fff;box-shadow:0 10px 24px -10px rgba(232,102,79,.7)}
+.btn-primary:hover{transform:translateY(-2px);box-shadow:0 16px 30px -12px rgba(232,102,79,.8);background:#df5741}
+.btn-ghost{background:rgba(255,255,255,.08);color:#fff;border-color:rgba(255,255,255,.28)}
+.btn-ghost:hover{background:rgba(255,255,255,.16);transform:translateY(-2px)}
+.btn-line{background:#fff;color:var(--ink);border-color:var(--line);box-shadow:var(--sh-sm)}
+.btn-line:hover{border-color:var(--accent);color:var(--accent);transform:translateY(-2px);box-shadow:var(--sh)}
+
+/* nav */
+.site-header{position:fixed;inset:0 0 auto 0;z-index:100;transition:background-color .3s,box-shadow .3s,border-color .3s;border-bottom:1px solid transparent}
+.site-header.scrolled{background:rgba(255,255,255,.78);backdrop-filter:saturate(180%) blur(16px);-webkit-backdrop-filter:saturate(180%) blur(16px);border-color:rgba(11,42,46,.08);box-shadow:0 6px 24px -18px rgba(11,42,46,.4)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:68px}
+.brand{display:flex;align-items:center;gap:10px;font-weight:750;letter-spacing:-.02em;color:#fff;text-decoration:none;font-size:17px;transition:color .3s}
+.brand-mark{width:34px;height:34px;border-radius:10px;display:grid;place-items:center;background:linear-gradient(135deg,var(--coral),var(--gold));color:#fff;font-size:14px;font-weight:800;letter-spacing:0}
+.scrolled .brand{color:var(--ink)}
+.nav-links{display:flex;align-items:center;gap:4px;list-style:none}
+.nav-links a{position:relative;color:rgba(255,255,255,.82);text-decoration:none;font-size:14.5px;font-weight:550;padding:8px 12px;border-radius:9px;transition:color .2s,background-color .2s}
+.nav-links a:hover{color:#fff;background:rgba(255,255,255,.1)}
+.scrolled .nav-links a{color:var(--text)}
+.scrolled .nav-links a:hover{color:var(--accent);background:var(--accent-soft)}
+.nav-links a.active{color:#fff}
+.scrolled .nav-links a.active{color:var(--accent);background:var(--accent-soft)}
+.nav-links a::after{content:"";position:absolute;left:12px;right:12px;bottom:3px;height:2px;border-radius:2px;background:var(--coral);transform:scaleX(0);transition:transform .3s var(--ease)}
+.nav-links a.active::after{transform:scaleX(1)}
+.nav-links .nav-cta{background:var(--coral);color:#fff!important;margin-left:8px}
+.nav-links .nav-cta::after{display:none}
+.nav-links .nav-cta:hover{background:#df5741!important}
+.nav-toggle{display:none;width:42px;height:42px;border:0;border-radius:10px;background:rgba(255,255,255,.12);position:relative;cursor:pointer}
+.scrolled .nav-toggle{background:var(--soft)}
+.nav-toggle span,.nav-toggle span::before,.nav-toggle span::after{position:absolute;left:12px;width:18px;height:2px;border-radius:2px;background:#fff;content:"";transition:transform .25s,opacity .2s}
+.scrolled .nav-toggle span,.scrolled .nav-toggle span::before,.scrolled .nav-toggle span::after{background:var(--ink)}
+.nav-toggle span{top:20px}.nav-toggle span::before{left:0;top:-6px}.nav-toggle span::after{left:0;top:6px}
+.nav-toggle[aria-expanded="true"] span{background:transparent!important}
+.nav-toggle[aria-expanded="true"] span::before{transform:translateY(6px) rotate(45deg)}
+.nav-toggle[aria-expanded="true"] span::after{transform:translateY(-6px) rotate(-45deg)}
+
+/* hero */
+.hero{position:relative;overflow:hidden;background:#0B2A2E;color:#DCEBEA;padding:150px 0 110px;isolation:isolate}
+.hero-bg{position:absolute;inset:-20%;z-index:-2;background:
+radial-gradient(40% 50% at 15% 25%,rgba(14,124,116,.75),transparent 70%),
+radial-gradient(35% 45% at 85% 20%,rgba(232,102,79,.45),transparent 70%),
+radial-gradient(45% 55% at 70% 90%,rgba(242,181,68,.28),transparent 70%),
+radial-gradient(50% 60% at 30% 100%,rgba(10,95,89,.8),transparent 70%);
+filter:blur(10px);animation:drift 22s ease-in-out infinite alternate}
+@keyframes drift{0%{transform:translate3d(0,0,0) rotate(0) scale(1)}50%{transform:translate3d(3%,-2%,0) rotate(6deg) scale(1.06)}100%{transform:translate3d(-3%,2%,0) rotate(-4deg) scale(1.03)}}
+.hero::after{content:"";position:absolute;inset:0;z-index:-1;background-image:linear-gradient(rgba(255,255,255,.05) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.05) 1px,transparent 1px);background-size:56px 56px;mask-image:radial-gradient(70% 60% at 50% 40%,#000,transparent)}
+.hero-grid{display:grid;grid-template-columns:1.35fr 1fr;gap:56px;align-items:center}
+.status{display:inline-flex;align-items:center;gap:10px;font-size:13.5px;font-weight:600;color:#fff;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.22);padding:7px 15px 7px 12px;border-radius:999px;backdrop-filter:blur(6px)}
+.dot{width:9px;height:9px;border-radius:50%;background:#4ADE9B;animation:pulse 2.2s infinite}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(74,222,155,.55)}70%{box-shadow:0 0 0 9px rgba(74,222,155,0)}100%{box-shadow:0 0 0 0 rgba(74,222,155,0)}}
+.hero h1{color:#fff;font-size:clamp(2.9rem,6.6vw,5rem);font-weight:780;letter-spacing:-.045em;line-height:1;margin:22px 0 14px}
+.hero h1 em{font-family:var(--serif);font-weight:400;font-style:italic;letter-spacing:-.01em;background:linear-gradient(100deg,#FFD08A,var(--coral));-webkit-background-clip:text;background-clip:text;color:transparent;padding-right:.08em}
+.role{font-size:clamp(1.05rem,1.9vw,1.3rem);color:#fff;font-weight:600;letter-spacing:-.01em}
+.lead{margin-top:14px;max-width:600px;font-size:1.07rem;color:#C5DCDA}
+.lead strong{color:#fff}
+.cta-row{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}
+.hero-meta{display:flex;flex-wrap:wrap;gap:10px 22px;margin-top:26px;list-style:none;font-size:14px;color:#A9C7C4}
+.hero-meta li{display:flex;align-items:center;gap:7px}
+/* split text */
+.split .w{display:inline-block;overflow:hidden;vertical-align:bottom;padding-bottom:.08em;margin-bottom:-.08em}
+.split .w>span{display:inline-block}
+.js .split .w>span{transform:translateY(105%);transition:transform .9s var(--ease);transition-delay:calc(var(--i)*70ms + 150ms)}
+.js.loaded .split .w>span{transform:none}
+.js .fade{opacity:0;transform:translateY(14px);transition:opacity .8s var(--ease),transform .8s var(--ease);transition-delay:var(--fd,0ms)}
+.js.loaded .fade{opacity:1;transform:none}
+
+/* hero card (TK Hub) */
+.hero-card{position:relative;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.16);border-radius:24px;padding:26px;backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);box-shadow:0 40px 80px -30px rgba(0,0,0,.55)}
+.hero-card::before{content:"";position:absolute;inset:-1px;border-radius:inherit;padding:1px;background:linear-gradient(140deg,rgba(255,208,138,.7),transparent 40%,transparent 60%,rgba(14,124,116,.9));-webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;mask-composite:exclude;pointer-events:none}
+.tk{display:flex;align-items:center;gap:14px;text-decoration:none;color:#fff;padding:14px;margin:-6px -6px 18px;border-radius:16px;transition:background-color .25s}
+.tk:hover{background:rgba(255,255,255,.08)}
+.tk img{width:56px;height:56px;border-radius:14px;box-shadow:0 8px 20px -8px rgba(0,0,0,.6);transition:transform .35s var(--ease)}
+.tk:hover img{transform:rotate(-6deg) scale(1.06)}
+.tk small{display:block;font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.12em;color:#FFD08A}
+.tk b{display:block;font-size:17px;font-weight:700;letter-spacing:-.01em}
+.tk i{display:block;font-style:normal;font-size:13.5px;color:#A9C7C4}
+.tk .arrow{margin-left:auto;font-size:20px;transition:transform .25s}
+.tk:hover .arrow{transform:translate(3px,-3px)}
+.mini{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.mini div{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1);border-radius:14px;padding:14px}
+.mini b{display:block;color:#fff;font-size:22px;font-weight:750;letter-spacing:-.02em;line-height:1.15;font-variant-numeric:tabular-nums}
+.mini span{font-size:12.5px;color:#A9C7C4;line-height:1.35;display:block;margin-top:4px}
+.icons{display:flex;gap:-8px;margin-top:16px;align-items:center}
+.icons img{width:30px;height:30px;border-radius:9px;border:2px solid #0F3337;margin-left:-8px;transition:transform .25s var(--ease)}
+.icons img:first-child{margin-left:0}
+.icons:hover img{transform:translateY(-3px)}
+.icons span{margin-left:12px;font-size:13px;color:#A9C7C4}
+
+/* sections */
+.section{padding:104px 0}
+.section.soft{background:var(--soft)}
+.head{max-width:720px;margin-bottom:48px}
+.eyebrow{display:inline-flex;align-items:center;gap:10px;color:var(--accent);font-weight:700;font-size:12.5px;letter-spacing:.16em;text-transform:uppercase}
+.eyebrow::before{content:"";width:22px;height:2px;border-radius:2px;background:var(--coral)}
+h2{color:var(--ink);font-size:clamp(2rem,3.8vw,2.8rem);font-weight:760;letter-spacing:-.035em;line-height:1.1;margin-top:12px}
+h2 em{font-family:var(--serif);font-weight:400;color:var(--accent);letter-spacing:-.01em;font-size:1.1em}
+.sub{margin-top:14px;color:var(--muted);font-size:1.05rem}
+h3{color:var(--ink);letter-spacing:-.02em}
+
+/* about */
+.about-grid{display:grid;grid-template-columns:1.45fr 1fr;gap:56px;align-items:start}
+.about-copy p{margin-bottom:16px;font-size:1.06rem}
+.about-copy p:first-child{font-size:1.22rem;color:var(--ink);line-height:1.5;letter-spacing:-.01em}
+.quote{position:relative;margin-top:26px;padding:22px 24px 22px 60px;background:var(--coral-soft);border-radius:var(--r);color:var(--ink);font-size:1.05rem}
+.quote::before{content:"\201C";position:absolute;left:18px;top:2px;font-family:var(--serif);font-style:italic;font-size:64px;color:var(--coral);line-height:1.2}
+.facts{background:#fff;border:1px solid var(--line);border-radius:22px;padding:8px 24px;box-shadow:var(--sh)}
+.facts div{display:grid;grid-template-columns:120px 1fr;gap:14px;padding:15px 0;border-bottom:1px solid var(--line);font-size:14.5px}
+.facts div:last-child{border:0}
+.facts dt{font-weight:700;color:var(--accent);font-size:12.5px;text-transform:uppercase;letter-spacing:.08em;padding-top:2px}
+.facts dd{color:var(--ink)}
+
+/* impact */
+.impact{position:relative;background:linear-gradient(160deg,#0B2A2E,#0F3B3E 60%,#123F3A);color:#C5DCDA;padding:96px 0;overflow:hidden}
+.impact::before{content:"";position:absolute;width:600px;height:600px;right:-200px;top:-260px;background:radial-gradient(circle,rgba(232,102,79,.28),transparent 65%)}
+.impact h2{color:#fff}.impact .eyebrow{color:#FFD08A}.impact .sub{color:#A9C7C4}
+.stats{position:relative;display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.stat{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);border-radius:20px;padding:24px;transition:transform .3s var(--ease),background-color .3s,border-color .3s}
+.stat:hover{transform:translateY(-4px);background:rgba(255,255,255,.09);border-color:rgba(255,208,138,.45)}
+.stat .n{font-size:clamp(2rem,3.2vw,2.6rem);font-weight:780;letter-spacing:-.035em;color:#fff;line-height:1.05;font-variant-numeric:tabular-nums;white-space:nowrap}
+.stat .n .u{color:#FFD08A}
+.stat p{margin-top:10px;font-size:14px;line-height:1.5}
+
+/* timeline */
+.timeline{position:relative;list-style:none;padding-left:40px}
+.timeline::before{content:"";position:absolute;left:11px;top:8px;bottom:8px;width:2px;background:var(--line);border-radius:2px}
+.timeline .progress{position:absolute;left:11px;top:8px;width:2px;height:0;background:linear-gradient(var(--coral),var(--accent));border-radius:2px;transition:height .15s linear}
+.job{position:relative;margin-bottom:22px}
+.job::before{content:"";position:absolute;left:-36px;top:30px;width:16px;height:16px;border-radius:50%;background:#fff;border:3px solid var(--accent);box-shadow:0 0 0 5px var(--soft);transition:background-color .3s,transform .3s}
+.job:hover::before{background:var(--coral);border-color:var(--coral);transform:scale(1.15)}
+.job-card{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:26px 28px;box-shadow:var(--sh-sm);transition:transform .3s var(--ease),box-shadow .3s,border-color .3s}
+.job-card:hover{transform:translateY(-3px);box-shadow:var(--sh);border-color:#cfe2e0}
+.job-top{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-start;gap:8px 16px}
+.job h3{font-size:1.22rem}
+.co{display:flex;align-items:center;gap:8px;color:var(--accent);font-weight:600;font-size:15px;margin-top:2px}
+.co a{color:inherit;text-underline-offset:3px}
+.co img{width:22px;height:22px;border-radius:6px}
+.when{font-size:13px;font-weight:650;color:var(--accent-2);background:var(--accent-soft);padding:5px 12px;border-radius:999px;white-space:nowrap}
+.ctx{margin-top:10px;color:var(--muted);font-size:15px}
+.job ul{margin-top:12px;padding-left:0;list-style:none}
+.job li{position:relative;padding-left:22px;margin:7px 0;font-size:15.5px}
+.job li::before{content:"";position:absolute;left:4px;top:.68em;width:7px;height:7px;border-radius:2px;background:var(--coral);transform:rotate(45deg)}
+
+/* cases */
+.cases{display:grid;grid-template-columns:repeat(6,1fr);gap:20px}
+.case{grid-column:span 2;position:relative;display:flex;flex-direction:column;background:#fff;border:1px solid var(--line);border-radius:22px;padding:28px;box-shadow:var(--sh-sm);overflow:hidden;transition:transform .35s var(--ease),box-shadow .35s,border-color .35s}
+.case.wide{grid-column:span 3}
+.case::after{content:"";position:absolute;inset:0;background:radial-gradient(400px circle at var(--mx,50%) var(--my,0%),rgba(14,124,116,.09),transparent 45%);opacity:0;transition:opacity .35s;pointer-events:none}
+.case:hover{transform:translateY(-6px);box-shadow:var(--sh-lg);border-color:#cfe2e0}
+.case:hover::after{opacity:1}
+.case-num{font-family:var(--serif);font-style:italic;font-size:2.4rem;line-height:1;color:var(--coral)}
+.kicker{font-size:12px;font-weight:700;color:var(--accent);text-transform:uppercase;letter-spacing:.12em;margin-top:14px}
+.case h3{font-size:1.3rem;margin:6px 0 14px;line-height:1.25}
+.case dl{display:grid;gap:12px;font-size:15px}
+.case dt{font-weight:700;color:var(--ink);font-size:13px;text-transform:uppercase;letter-spacing:.06em}
+.case dd{color:var(--text)}
+.result{margin-top:auto;padding-top:20px}
+.result span{display:block;padding:12px 14px;border-radius:12px;background:var(--accent-soft);color:var(--accent-2);font-weight:700;font-size:14.5px}
+
+/* products */
+.product-grid{list-style:none;display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.product{--c:var(--accent);position:relative;display:flex;flex-direction:column;background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:22px;transition:transform .3s var(--ease),box-shadow .3s,border-color .3s}
+.product::before{content:"";position:absolute;left:22px;right:22px;top:0;height:3px;border-radius:0 0 3px 3px;background:var(--c);transform:scaleX(.2);transform-origin:left;opacity:.6;transition:transform .4s var(--ease),opacity .3s}
+.product:hover{transform:translateY(-5px);box-shadow:0 22px 44px -22px color-mix(in srgb,var(--c) 55%,transparent),var(--sh-sm);border-color:color-mix(in srgb,var(--c) 35%,var(--line))}
+.product:hover::before{transform:scaleX(1);opacity:1}
+.product-feature{grid-column:span 1}
+.product-top{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:14px}
+.product-logo{width:52px;height:52px;border-radius:14px;box-shadow:0 6px 16px -8px rgba(0,0,0,.4);transition:transform .35s var(--ease)}
+.product:hover .product-logo{transform:scale(1.08) rotate(-4deg)}
+.product-tag{font-size:12px;font-weight:650;color:var(--c);background:color-mix(in srgb,var(--c) 10%,#fff);padding:4px 10px;border-radius:999px;text-align:right}
+.product h3{font-size:1.12rem;margin-bottom:6px}
+.product p{font-size:14.5px;color:var(--muted);margin-bottom:14px}
+.product-link{margin-top:auto;font-size:14px;font-weight:650;color:var(--c);text-decoration:none}
+.product-link:hover{text-decoration:underline;text-underline-offset:3px}
+.tk-band{display:flex;flex-wrap:wrap;align-items:center;gap:18px;justify-content:space-between;margin-bottom:28px;padding:20px 24px;border-radius:20px;background:#fff;border:1px solid var(--line);box-shadow:var(--sh-sm)}
+.tk-band .l{display:flex;align-items:center;gap:14px}
+.tk-band img{width:52px;height:52px;border-radius:14px}
+.tk-band p{font-size:15px;color:var(--muted);max-width:640px}
+.tk-band b{color:var(--ink)}
+
+/* skills */
+.skills{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.skill{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:24px;transition:transform .3s var(--ease),box-shadow .3s}
+.skill:hover{transform:translateY(-4px);box-shadow:var(--sh)}
+.skill .ico{width:42px;height:42px;border-radius:12px;display:grid;place-items:center;background:var(--accent-soft);color:var(--accent);margin-bottom:14px}
+.skill h3{font-size:1.05rem;margin-bottom:12px}
+.chips{list-style:none;display:flex;flex-wrap:wrap;gap:7px}
+.chips li{font-size:13.5px;font-weight:520;color:var(--ink);background:var(--soft);border:1px solid var(--line);padding:5px 11px;border-radius:999px;transition:background-color .2s,border-color .2s,color .2s}
+.chips li:hover{background:var(--accent-soft);border-color:#bfe0dc;color:var(--accent-2)}
+.edu{display:grid;grid-template-columns:1fr 1.4fr;gap:18px;margin-top:18px}
+.edu .skill p{font-size:15px}
+.certs{list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.certs li{font-size:14.5px;padding:10px 12px;border-radius:12px;background:var(--soft);color:var(--ink);font-weight:550}
+.certs li b{color:var(--coral)}
+
+/* contact */
+.contact{position:relative;overflow:hidden;background:#0B2A2E;color:#C5DCDA;padding:110px 0;text-align:center;isolation:isolate}
+.contact .hero-bg{opacity:.7}
+.contact h2{color:#fff;font-size:clamp(2.2rem,4.6vw,3.4rem)}
+.contact h2 em{color:#FFD08A}
+.contact p{max-width:600px;margin:16px auto 32px;font-size:1.08rem}
+.contact .cta-row{justify-content:center}
+footer{background:#071D20;color:#7E9C9A;font-size:13.5px;padding:26px 0}
+footer .container{display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px}
+footer a{color:#C5DCDA;text-decoration:none}footer a:hover{color:#fff}
+.to-top{position:fixed;right:20px;bottom:20px;z-index:90;width:46px;height:46px;border-radius:14px;border:0;display:grid;place-items:center;background:var(--ink);color:#fff;box-shadow:var(--sh);cursor:pointer;opacity:0;visibility:hidden;transform:translateY(10px);transition:opacity .25s,transform .25s,visibility 0s linear .25s,background-color .2s}
+.to-top.show{opacity:1;visibility:visible;transform:none;transition:opacity .25s,transform .25s,visibility 0s}
+.to-top:hover{background:var(--coral)}
+.scroll-bar{position:fixed;left:0;top:0;height:3px;z-index:101;width:100%;transform-origin:left;transform:scaleX(0);background:linear-gradient(90deg,var(--coral),var(--gold))}
+
+/* reveal */
+.js .reveal{opacity:0;transform:translateY(22px);transition:opacity .8s var(--ease),transform .8s var(--ease);transition-delay:var(--d,0ms)}
+.js .reveal.in{opacity:1;transform:none}
+
+@media (max-width:1020px){.stats{grid-template-columns:repeat(2,1fr)}.skills{grid-template-columns:repeat(2,1fr)}.product-grid{grid-template-columns:repeat(2,1fr)}.case,.case.wide{grid-column:span 3}}
+@media (max-width:860px){
+.hero{padding:120px 0 80px}.hero-grid,.about-grid,.edu{grid-template-columns:1fr}.hero-grid{gap:40px}
+.nav-toggle{display:block}
+.nav-links{position:absolute;top:68px;left:12px;right:12px;flex-direction:column;align-items:stretch;gap:2px;padding:10px;background:#fff;border:1px solid var(--line);border-radius:18px;box-shadow:var(--sh-lg);opacity:0;visibility:hidden;transform:translateY(-8px);transition:opacity .25s,transform .25s,visibility 0s linear .25s}
+.nav-links.open{opacity:1;visibility:visible;transform:none;transition:opacity .25s,transform .25s}
+.nav-links a,.scrolled .nav-links a{color:var(--ink);padding:12px 14px}
+.nav-links a::after{display:none}
+.nav-links a.active{color:var(--accent);background:var(--accent-soft)}
+.nav-links .nav-cta{margin:6px 0 0;text-align:center}
+.section{padding:76px 0}.impact,.contact{padding:76px 0}}
+@media (max-width:620px){
+body{font-size:16px}.container{padding:0 18px}
+.stats{grid-template-columns:1fr 1fr;gap:12px}.stat{padding:18px}.stat .n{font-size:1.75rem}.stat p{font-size:13px}
+.product-grid,.skills,.certs{grid-template-columns:1fr}.case,.case.wide{grid-column:1/-1}
+.timeline{padding-left:28px}.timeline::before,.timeline .progress{left:5px}.job::before{left:-29px;width:14px;height:14px}
+.job-card{padding:20px}.facts div{grid-template-columns:1fr;gap:2px}
+.cta-row .btn{flex:1 1 auto;justify-content:center}
+.mini b{font-size:19px}}
+@media (prefers-reduced-motion:reduce){
+html{scroll-behavior:auto}
+*,*::before,*::after{animation:none!important;transition:none!important}
+.js .reveal,.js .fade,.js .split .w>span{opacity:1!important;transform:none!important}}
 </style>
 </head>
 <body>
-<nav><div class="wrap"><a class="brand" href="#top">Ciara Mosley</a>
-<ul><li><a href="#about">About</a></li><li><a href="#highlights">Highlights</a></li><li><a href="#experience">Experience</a></li><li><a href="#work">Selected Work</a></li><li><a href="#skills">Skills</a></li><li><a href="#contact">Contact</a></li></ul></div></nav>
+<a class="skip" href="#main">Skip to content</a>
+<div class="scroll-bar" aria-hidden="true"></div>
+<header class="site-header">
+<nav class="nav container" aria-label="Primary">
+<a class="brand" href="#top"><span class="brand-mark" aria-hidden="true">CM</span>Ciara Mosley</a>
+<button class="nav-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Menu"><span></span></button>
+<ul class="nav-links" id="nav-links">
+<li><a href="#about">About</a></li><li><a href="#impact">Impact</a></li><li><a href="#experience">Experience</a></li><li><a href="#work">Work</a></li><li><a href="#tkhub">TK Hub</a></li><li><a href="#skills">Skills</a></li><li><a class="nav-cta" href="#contact">Contact</a></li>
+</ul></nav></header>
 
-<header class="hero" id="top"><div class="wrap">
-<span class="badge"><span class="dot"></span>Open to remote CX leadership roles</span>
-<h1>Ciara Mosley</h1>
-<p class="headline">Head of Customer Experience &nbsp;|&nbsp; CX Operations, AI Enablement &amp; Retention</p>
-<p class="meta">Dallas–Fort Worth, TX area &nbsp;·&nbsp; 8+ years in customer experience &nbsp;·&nbsp; CCXP</p>
-<div class="btns">
-<a class="btn primary" href="Ciara-Mosley-Resume.pdf" download>Download résumé (PDF)</a>
-<a class="btn ghost" href="mailto:wolfxchii@gmail.com">Email Ciara</a>
-<a class="btn ghost" href="https://www.linkedin.com/in/ciaramosley" target="_blank" rel="noopener">LinkedIn</a>
-</div></div></header>
-
-<section id="about"><div class="wrap">
-<div class="eyebrow">About</div><h2>Operational rigor, hands-on execution</h2>
-<div class="about"><div>
-<p>Customer Experience leader with <strong>8+ years</strong> building and scaling support operations across connected fitness, AI-powered products, and B2B and B2C environments in SaaS / tech.</p>
-<p>At <strong>OxeFit</strong>, Ciara owned end-to-end CX for three product experiences (XS1, XP1, and OxeAI) and built AI support agents on Zendesk that lifted automated resolution from <strong>32% to 65%</strong>. At <strong>Peloton</strong>, she managed 10 technical support agents as Team Lead, then led teams of <strong>50+ associates and specialists</strong> as Senior Supervisor, Operational Excellence.</p>
-<p>She has managed team leads, supervisors/managers, and outsourced BPO teams, including a <strong>50-person outsourced BPO</strong> support team for two years, across phone, email, chat, and social. She builds multi-tier teams, standardizes customer journeys, resolves executive-level escalations and disputes, and turns customer signal into product and process change.</p>
-<p>Today she is <strong>Co-Founder &amp; COO of TK Hub LLC</strong>, an app studio, and uses <strong>Claude and ChatGPT daily</strong> for research, documentation, and product work.</p>
+<main id="main">
+<section class="hero" id="top" tabindex="-1" aria-labelledby="hero-title">
+<div class="hero-bg" aria-hidden="true"></div>
+<div class="container hero-grid">
+<div>
+<p class="status fade"><span class="dot" aria-hidden="true"></span>Open to remote CX leadership roles</p>
+<h1 id="hero-title" class="split">Ciara <em>Mosley</em></h1>
+<p class="role fade" style="--fd:500ms">Head of Customer Experience · CX Operations, AI Enablement &amp; Retention</p>
+<p class="lead fade" style="--fd:620ms"><strong>8+ years</strong> building and scaling support operations across connected fitness, AI-powered products, and B2B and B2C environments. Built AI support agents on Zendesk that lifted automated resolution from <strong>32% to 65%</strong>, and led teams of <strong>50+</strong> at Peloton.</p>
+<div class="cta-row fade" style="--fd:740ms">
+<a class="btn btn-primary" href="mailto:wolfxchii@gmail.com?subject=CX%20leadership%20opportunity"><svg aria-hidden="true" viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M3 5h18a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1Zm1.4 2 7.6 5.6L19.6 7H4.4ZM20 8.4l-7.4 5.4a1 1 0 0 1-1.2 0L4 8.4V17h16V8.4Z"/></svg>Email Ciara</a>
+<a class="btn btn-ghost" href="Ciara-Mosley-Resume.pdf" download><svg aria-hidden="true" viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M11 3h2v9.6l3.3-3.3 1.4 1.4L12 16.4l-5.7-5.7 1.4-1.4 3.3 3.3V3ZM4 19h16v2H4v-2Z"/></svg>Résumé (PDF)</a>
+<a class="btn btn-ghost" href="https://www.linkedin.com/in/ciaramosley" target="_blank" rel="noopener"><svg aria-hidden="true" viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM3 9.75h4V21H3V9.75Zm6.5 0h3.83v1.54h.06c.53-1 1.84-2.06 3.8-2.06 4.06 0 4.81 2.67 4.81 6.15V21h-4v-4.95c0-1.18-.02-2.7-1.65-2.7-1.65 0-1.9 1.29-1.9 2.62V21h-4V9.75Z"/></svg>LinkedIn<span class="sr-only"> (opens in a new tab)</span></a>
 </div>
-<dl class="facts">
-<dt>Focus</dt><dd>CX strategy &amp; operations, support automation &amp; AI enablement, retention</dd>
-<dt>Channels</dt><dd>Phone, email, chat &amp; social</dd>
-<dt>Metrics tracked</dt><dd>CSAT, QA, NPS, FCR &amp; AHT</dd>
-<dt>Team scope</dt><dd>Team leads, supervisors/managers &amp; outsourced BPO teams</dd>
-<dt>Financial scope</dt><dd>Resource allocation, operating-cost improvements, vendor coordination, and payment/refund/dispute workflows with Finance</dd>
-<dt>Work style</dt><dd>Remote; based in the Dallas–Fort Worth, TX area</dd>
-</dl></div>
-<div class="quote">A former manager describes Ciara as very diligent, hard-working, and a top performer.</div>
+<ul class="hero-meta fade" style="--fd:860ms">
+<li><svg aria-hidden="true" viewBox="0 0 24 24" width="16" height="16"><path fill="currentColor" d="M12 2a7 7 0 0 1 7 7c0 5.2-7 13-7 13S5 14.2 5 9a7 7 0 0 1 7-7Zm0 4.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5Z"/></svg>Dallas–Fort Worth, TX area · Remote</li>
+<li><svg aria-hidden="true" viewBox="0 0 24 24" width="16" height="16"><path fill="currentColor" d="m9.5 16.6-4.6-4.6 1.4-1.4 3.2 3.2 7.9-7.9 1.4 1.4-9.3 9.3Z"/></svg>CCXP certified</li>
+<li><svg aria-hidden="true" viewBox="0 0 24 24" width="16" height="16"><path fill="currentColor" d="m9.5 16.6-4.6-4.6 1.4-1.4 3.2 3.2 7.9-7.9 1.4 1.4-9.3 9.3Z"/></svg>Claude &amp; ChatGPT daily</li>
+</ul>
+</div>
+<aside class="hero-card fade" style="--fd:450ms" aria-label="Current role at TK Hub">
+<a class="tk" href="https://tkhub.app/" target="_blank" rel="noopener">
+<img src="assets/tkhub-logo.png" width="56" height="56" alt="TK Hub logo">
+<span><small>Now</small><b>Co-Founder &amp; COO at TK Hub</b><i>tkhub.app · May 2026 – Present</i></span>
+<span class="arrow" aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a>
+<div class="mini">
+<div><b>32→65%</b><span>automated resolution with AI agents (OxeFit)</span></div>
+<div><b>50+</b><span>associates &amp; specialists led (Peloton)</span></div>
+<div><b>4.8</b><span>monthly CSAT, high-volume B2C</span></div>
+<div><b>F → A</b><span>OxeFit BBB rating turnaround</span></div>
+</div>
+<div class="icons" aria-hidden="true">
+<img src="assets/apps/curb.png" alt=""><img src="assets/apps/booked.png" alt=""><img src="assets/apps/zilt.png" alt=""><img src="assets/apps/role.png" alt=""><img src="assets/apps/apex.png" alt=""><span>+5 more TK Hub apps</span>
+</div>
+</aside>
 </div></section>
 
-<section id="highlights"><div class="wrap">
-<div class="eyebrow">Career highlights</div><h2>Results on record</h2>
+<section class="section" id="about" aria-labelledby="about-title">
+<div class="container about-grid">
+<div class="about-copy">
+<div class="reveal"><p class="eyebrow">About</p><h2 id="about-title" style="margin-bottom:22px">Operational rigor, <em>hands-on</em> execution.</h2></div>
+<p class="reveal">Customer Experience leader with 8+ years building and scaling support operations across connected fitness, AI-powered products, and B2B and B2C environments in SaaS / tech.</p>
+<p class="reveal">At <strong>OxeFit</strong>, Ciara owned end-to-end CX for three product experiences (XS1, XP1, and OxeAI) and built AI support agents on Zendesk that lifted automated resolution from 32% to 65%. At <strong>Peloton</strong>, she managed 10 technical support agents as Team Lead, then led teams of 50+ associates and specialists as Senior Supervisor, Operational Excellence.</p>
+<p class="reveal">She has managed team leads, supervisors/managers, and outsourced BPO teams, including a <strong>50-person outsourced BPO</strong> support team for two years, across phone, email, chat, and social. She builds multi-tier teams, standardizes customer journeys, resolves executive-level escalations and disputes, and turns customer signal into product and process change.</p>
+<p class="reveal">Today she is <strong>Co-Founder &amp; COO of <a href="https://tkhub.app/" target="_blank" rel="noopener">TK Hub LLC</a></strong>, an app studio, and uses Claude and ChatGPT daily for research, documentation, and product work.</p>
+<blockquote class="quote reveal">A former manager describes Ciara as very diligent, hard-working, and a top performer.</blockquote>
+</div>
+<dl class="facts reveal">
+<div><dt>Focus</dt><dd>CX strategy &amp; operations, support automation &amp; AI enablement, retention</dd></div>
+<div><dt>Channels</dt><dd>Phone, email, chat &amp; social</dd></div>
+<div><dt>Metrics</dt><dd>Tracks CSAT, QA, NPS, FCR &amp; AHT</dd></div>
+<div><dt>Team scope</dt><dd>Team leads, supervisors/managers &amp; outsourced BPO teams (incl. a 50-person BPO team for two years)</dd></div>
+<div><dt>Financial</dt><dd>Resource allocation, operating-cost improvements, vendor coordination, and payment/refund/dispute workflows with Finance</dd></div>
+<div><dt>Platforms</dt><dd>Zendesk (incl. AI agents), Salesforce, Gorgias, SendGrid</dd></div>
+<div><dt>Industry</dt><dd>SaaS / Tech / Software</dd></div>
+</dl>
+</div></section>
+
+<section class="impact" id="impact" aria-labelledby="impact-title">
+<div class="container">
+<div class="head reveal"><p class="eyebrow">Career highlights</p><h2 id="impact-title">Results on record</h2><p class="sub">Every number below comes straight from her résumé.</p></div>
 <div class="stats">
-<div class="stat"><div class="n">$35M+</div><div class="l">annual revenue growth generated, while reducing operating expenses by $150K+</div></div>
-<div class="stat"><div class="n">32% → 65%</div><div class="l">automated resolution with AI support agents built on Zendesk (OxeFit)</div></div>
-<div class="stat"><div class="n">50+</div><div class="l">associates and specialists led at Peloton; 50% team promotion rate through tailored development plans</div></div>
-<div class="stat"><div class="n">4.8</div><div class="l">monthly CSAT sustained across high-volume B2C support operations</div></div>
-<div class="stat"><div class="n">F → A</div><div class="l">OxeFit BBB rating, through the reputation strategy she led</div></div>
-<div class="stat"><div class="n">−35%</div><div class="l">recurring escalations via root cause analysis with Product, Engineering &amp; CS (Peloton)</div></div>
-<div class="stat"><div class="n">−10%</div><div class="l">support ticket volume from self-service resources (FAQ libraries, video tutorials)</div></div>
-<div class="stat"><div class="n">95%</div><div class="l">SLA adherence on ~2,000 technical inquiries per month as senior escalation point</div></div>
+<div class="stat reveal"><div class="n"><span class="u">$</span><span data-count="35">35</span><span class="u">M+</span></div><p>annual revenue growth generated, while reducing operating expenses by $150K+</p></div>
+<div class="stat reveal"><div class="n"><span data-count="65">65</span><span class="u">%</span></div><p>automated resolution with AI support agents on Zendesk, up from 32% (OxeFit)</p></div>
+<div class="stat reveal"><div class="n"><span data-count="50">50</span><span class="u">+</span></div><p>associates &amp; specialists led at Peloton, with a 50% team promotion rate</p></div>
+<div class="stat reveal"><div class="n"><span data-count="4.8" data-dec="1">4.8</span></div><p>monthly CSAT sustained across high-volume B2C support operations</p></div>
+<div class="stat reveal"><div class="n">F <span class="u">→</span> A</div><p>OxeFit BBB rating, through the reputation strategy she led</p></div>
+<div class="stat reveal"><div class="n"><span class="u">−</span><span data-count="35">35</span><span class="u">%</span></div><p>recurring escalations via root cause analysis with Product, Engineering &amp; CS</p></div>
+<div class="stat reveal"><div class="n"><span class="u">−</span><span data-count="10">10</span><span class="u">%</span></div><p>support ticket volume from self-service resources (FAQ libraries, video tutorials)</p></div>
+<div class="stat reveal"><div class="n"><span data-count="95">95</span><span class="u">%</span></div><p>SLA adherence on ~2,000 technical inquiries per month as senior escalation point</p></div>
 </div></div></section>
 
-<section id="experience"><div class="wrap">
-<div class="eyebrow">Experience</div><h2>Career timeline</h2>
-<div class="timeline">
-<div class="job"><div class="top"><div><h3>Co-Founder &amp; Chief Operating Officer</h3><div class="co">TK Hub LLC · Remote</div></div><div class="when">May 2026 – Present</div></div>
+<section class="section soft" id="experience" aria-labelledby="exp-title">
+<div class="container">
+<div class="head reveal"><p class="eyebrow">Experience</p><h2 id="exp-title">Career <em>timeline</em></h2></div>
+<ol class="timeline"><span class="progress" aria-hidden="true"></span>
+<li class="job reveal"><div class="job-card"><div class="job-top"><div><h3>Co-Founder &amp; Chief Operating Officer</h3><div class="co"><img src="assets/tkhub-logo.png" alt="" width="22" height="22"><a href="https://tkhub.app/" target="_blank" rel="noopener">TK Hub LLC ↗</a>· Remote</div></div><span class="when">May 2026 – Present</span></div>
 <p class="ctx">App studio that builds and ships consumer and business apps (including Curb, Booked, and Zilt) on the App Store and Google Play.</p>
 <ul><li>Coordinates day-to-day operations and app-development priorities; reviews product design and user experience, tracks development progress, and assesses launch readiness.</li>
 <li>Responds to support inquiries, troubleshoots reported issues, documents and prioritizes bugs, and helps coordinate and verify fixes.</li>
-<li>Uses AI (Claude and ChatGPT) daily for research, documentation, and app-development work, such as reviewing the Curb app's UX and launch readiness and turning findings into clear priorities.</li></ul></div>
-
-<div class="job"><div class="top"><div><h3>Customer Experience Manager</h3><div class="co">OxeFit · Plano, TX</div></div><div class="when">Jun 2025 – Sep 2026</div></div>
+<li>Uses AI (Claude and ChatGPT) daily for research, documentation, and app-development work, such as reviewing the Curb app's UX and launch readiness and turning findings into clear priorities.</li></ul></div></li>
+<li class="job reveal"><div class="job-card"><div class="job-top"><div><h3>Customer Experience Manager</h3><div class="co">OxeFit · Plano, TX</div></div><span class="when">Jun 2025 – Sep 2026</span></div>
 <p class="ctx">Owned end-to-end CX for three connected-fitness and AI product experiences (XS1, XP1, OxeAI): technical support, memberships, service and delivery, escalations, customer education, and the full post-purchase journey.</p>
 <ul><li>Designed, built, and optimized AI support agents on Zendesk that raised automated resolution from 32% to 65%.</li>
 <li>Led a five-person support team across Tier 1, Tier 2, and commercial support: performance standards, escalation paths, SOPs, hiring, onboarding, and coaching.</li>
 <li>Launched the OxeFit Help Center from the ground up as primary technical writer and customer education lead.</li>
 <li>Standardized 10+ critical customer journeys, including dedicated VIP and investor paths.</li>
 <li>Led reputation strategy that took OxeFit's BBB rating from F to A; resolved executive-level escalations on multi-thousand-dollar purchases and disputes.</li>
-<li>Managed subscription, payment, refund, and dispute workflows across 7 commerce and payment platforms in partnership with Finance.</li></ul></div>
-
-<div class="job"><div class="top"><div><h3>Senior Supervisor, Operational Excellence</h3><div class="co">Peloton Interactive · Plano, TX</div></div><div class="when">Nov 2021 – Jun 2025</div></div>
+<li>Managed subscription, payment, refund, and dispute workflows across 7 commerce and payment platforms in partnership with Finance.</li></ul></div></li>
+<li class="job reveal"><div class="job-card"><div class="job-top"><div><h3>Senior Supervisor, Operational Excellence</h3><div class="co">Peloton Interactive · Plano, TX</div></div><span class="when">Nov 2021 – Jun 2025</span></div>
 <ul><li>Led and mentored cross-functional teams of up to 50+ associates and specialists across B2B and B2C channels.</li>
 <li>Increased CSAT 95% through targeted coaching, predictive analytics, and team management best practices.</li>
 <li>Reduced vendor dispute errors 30% and customer complaints 15%; cut recurring escalations 35%.</li>
 <li>Improved dispute resolution efficiency 40% through workflow redesign and automated triage systems.</li>
 <li>Improved agent and leader proficiency on Peloton support tickets 30% through large-scale process improvement programs.</li>
-<li>Generated $50K in annual savings by optimizing resource allocation and establishing clear KPIs; decreased fraud cases 20% with a new risk management program; achieved a 30% delivery save rate.</li></ul></div>
-
-<div class="job"><div class="top"><div><h3>Hardware &amp; Software Team Lead</h3><div class="co">Peloton Interactive · Plano, TX</div></div><div class="when">Oct 2019 – Nov 2021</div></div>
+<li>Generated $50K in annual savings by optimizing resource allocation and establishing clear KPIs; decreased fraud cases 20% with a new risk management program; achieved a 30% delivery save rate.</li></ul></div></li>
+<li class="job reveal"><div class="job-card"><div class="job-top"><div><h3>Hardware &amp; Software Team Lead</h3><div class="co">Peloton Interactive · Plano, TX</div></div><span class="when">Oct 2019 – Nov 2021</span></div>
 <ul><li>Senior escalation point for an average of 2,000 technical inquiries per month, maintaining 95% SLA adherence with real-time monitoring tools and agile methods.</li>
 <li>Managed a team of 10 technical support agents, aligning operational strategy with rapid company growth.</li>
-<li>Reduced Tier 3 escalation rates 30% with troubleshooting workflows built with product managers; cut new-hire ramp-up time 20%.</li></ul></div>
+<li>Reduced Tier 3 escalation rates 30% with troubleshooting workflows built with product managers; cut new-hire ramp-up time 20%.</li></ul></div></li>
+<li class="job reveal"><div class="job-card"><div class="job-top"><div><h3>Outsourced BPO Leadership</h3><div class="co">Across her support leadership roles</div></div><span class="when">2 years</span></div>
+<ul><li>Managed a 50-person outsourced BPO support team for two years, alongside team leads and supervisors/managers.</li></ul></div></li>
+</ol></div></section>
 
-<div class="job"><div class="top"><div><h3>Outsourced BPO Leadership</h3><div class="co">Across her support leadership roles</div></div><div class="when">2 years</div></div>
-<ul><li>Managed a 50-person outsourced BPO support team for two years, alongside team leads and supervisors/managers.</li></ul></div>
+<section class="section" id="work" aria-labelledby="work-title">
+<div class="container">
+<div class="head reveal"><p class="eyebrow">Selected work</p><h2 id="work-title">Case <em>studies</em></h2><p class="sub">Built only from her résumé: the challenge, what she did, and the result on record.</p></div>
+<div class="cases">
+<article class="case wide reveal"><span class="case-num">01</span><p class="kicker">OxeFit · AI Enablement</p><h3>AI support agent rollout on Zendesk</h3>
+<dl><div><dt>Challenge</dt><dd>Support for three connected-fitness and AI products relied heavily on agent-assisted help.</dd></div>
+<div><dt>What she did</dt><dd>Designed, built, and optimized AI support agents on Zendesk, backed by a Help Center she launched from scratch: information architecture, content standards, help articles, troubleshooting guides, and release notes.</dd></div></dl>
+<div class="result"><span>Automated resolution 32% → 65%, more than doubling the automation rate</span></div></article>
+<article class="case wide reveal"><span class="case-num">02</span><p class="kicker">Peloton · Team Scaling</p><h3>From 10 agents to teams of 50+</h3>
+<dl><div><dt>Challenge</dt><dd>Rapid company growth demanded scalable support across B2B and B2C channels.</dd></div>
+<div><dt>What she did</dt><dd>Grew from Team Lead of 10 technical agents to Senior Supervisor leading 50+ associates and specialists; built training programs, tailored development plans, and clear KPIs.</dd></div></dl>
+<div class="result"><span>50% team promotion rate · −20% new-hire ramp-up time · CSAT +95%</span></div></article>
+<article class="case reveal"><span class="case-num">03</span><p class="kicker">OxeFit · Service Recovery</p><h3>Reputation turnaround: BBB F → A</h3>
+<dl><div><dt>Challenge</dt><dd>High-value purchases, disputes, and service failures were damaging trust.</dd></div>
+<div><dt>What she did</dt><dd>Resolved executive-level escalations balancing financial risk and retention, standardized 10+ critical journeys, and led the XS1 Self-Service Repair program.</dd></div></dl>
+<div class="result"><span>BBB rating improved from F to A</span></div></article>
+<article class="case reveal"><span class="case-num">04</span><p class="kicker">Peloton · Operational Excellence</p><h3>Disputes, escalations &amp; fraud</h3>
+<dl><div><dt>Challenge</dt><dd>Recurring escalations, vendor disputes, and fraud added cost and friction.</dd></div>
+<div><dt>What she did</dt><dd>Ran root cause analysis with Product, Engineering, and Customer Success; redesigned workflows with automated triage; launched a risk and fraud prevention program.</dd></div></dl>
+<div class="result"><span>−35% escalations · +40% dispute efficiency · −20% fraud · $50K annual savings</span></div></article>
+<article class="case reveal"><span class="case-num">05</span><p class="kicker">TK Hub LLC · Operations</p><h3>Launch readiness as Co-Founder &amp; COO</h3>
+<dl><div><dt>Context</dt><dd>App studio shipping apps such as Curb, Booked, and Zilt on the App Store and Google Play.</dd></div>
+<div><dt>What she does</dt><dd>Runs day-to-day operations and priorities, reviews UX, handles support and bug triage, and uses Claude and ChatGPT daily, e.g., reviewing the Curb app's UX and launch readiness.</dd></div></dl>
+<div class="result"><span>Operations, support &amp; launch readiness for a multi-app studio</span></div></article>
 </div></div></section>
 
-<section id="work"><div class="wrap">
-<div class="eyebrow">Selected work</div><h2>Case studies</h2>
-<div class="cards">
-<div class="card"><div class="k">OxeFit · AI Enablement</div><h3>AI support agent rollout on Zendesk</h3>
-<p class="lbl">Challenge</p><p>Support for three connected-fitness and AI products relied heavily on agent-assisted help.</p>
-<p class="lbl">What she did</p><p>Designed, built, and optimized AI support agents on Zendesk, backed by a Help Center she launched from scratch: information architecture, content standards, help articles, troubleshooting guides, and release notes.</p>
-<div class="result">Automated resolution 32% → 65%, more than doubling the automation rate</div></div>
+<section class="section soft" id="tkhub" aria-labelledby="tk-title">
+<div class="container">
+<div class="head reveal"><p class="eyebrow">Co-Founder &amp; COO · TK Hub LLC</p><h2 id="tk-title">TK Hub <em>apps</em></h2><p class="sub">TK Hub LLC is an app studio shipping consumer and business apps on the App Store and Google Play. As Co-Founder &amp; COO since May 2026, Ciara co-leads the portfolio below: day-to-day operations and priorities, product design and UX review, launch readiness, and customer support and bug triage.</p></div>
+<div class="tk-band reveal"><div class="l"><img src="assets/tkhub-logo.png" width="52" height="52" alt="TK Hub logo"><p><b>TK Hub LLC</b><br>Ciara's role: operations, UX review, launch readiness, support &amp; bug triage.</p></div><a class="btn btn-line" href="https://tkhub.app/" target="_blank" rel="noopener">Visit tkhub.app<span class="sr-only"> (opens in a new tab)</span> <span aria-hidden="true">↗</span></a></div>
+<ul class="product-grid">
+          <li class="product reveal" style="--c:#0F766E">
+            <div class="product-top"><img class="product-logo" src="assets/apps/apex.png" width="52" height="52" alt="APEX logo" loading="lazy" decoding="async"><span class="product-tag">Healthcare SaaS · B2B</span></div>
+            <h3>APEX: Peak of Care</h3>
+            <p>Practice management software for dental and healthcare offices: scheduling, charts, imaging, and billing in one patient record. Monthly or annual plans, cancel anytime.</p>
+            <a class="product-link" href="https://apexpeakofcare.app/" target="_blank" rel="noopener">apexpeakofcare.app<span class="sr-only"> (APEX website, opens in a new tab)</span><span aria-hidden="true"> ↗</span></a>
+          </li>
+          <li class="product reveal" style="--c:#1F3A5F">
+            <div class="product-top"><img class="product-logo" src="assets/apps/role.png" width="52" height="52" alt="Role logo" loading="lazy" decoding="async"><span class="product-tag">Career · Job applications</span></div>
+            <h3>Role</h3>
+            <p>A job application tool: upload a true resume, and Role builds an ATS-ready packet and applies on the company's own career page, not through Easy Apply.</p>
+            <a class="product-link" href="https://tryrole.app/" target="_blank" rel="noopener">tryrole.app<span class="sr-only"> (Role website, opens in a new tab)</span><span aria-hidden="true"> ↗</span></a>
+          </li>
+          <li class="product reveal" style="--c:#B45309">
+            <div class="product-top"><img class="product-logo" src="assets/apps/booked.png" width="52" height="52" alt="Booked logo" loading="lazy" decoding="async"><span class="product-tag">Home services</span></div>
+            <h3>Booked</h3>
+            <p>Post a home-services job, one verified pro takes it and sets the real price. No bidding wars and no lead fees.</p>
+            <a class="product-link" href="https://trybooked.app/" target="_blank" rel="noopener">trybooked.app<span class="sr-only"> (Booked website, opens in a new tab)</span><span aria-hidden="true"> ↗</span></a>
+          </li>
+          <li class="product reveal" style="--c:#15803D">
+            <div class="product-top"><img class="product-logo" src="assets/apps/curb.png" width="52" height="52" alt="Curb logo" loading="lazy" decoding="async"><span class="product-tag">Rides &amp; food</span></div>
+            <h3>Curb</h3>
+            <p>Rideshare and food delivery where drivers set their own meter and every dollar is shown before the rider confirms.</p>
+            <a class="product-link" href="https://getoncurb.app/" target="_blank" rel="noopener">getoncurb.app<span class="sr-only"> (Curb website, opens in a new tab)</span><span aria-hidden="true"> ↗</span></a>
+          </li>
+          <li class="product reveal" style="--c:#7C3AED">
+            <div class="product-top"><img class="product-logo" src="assets/apps/zilt.png" width="52" height="52" alt="Zilt logo" loading="lazy" decoding="async"><span class="product-tag">Social video</span></div>
+            <h3>Zilt</h3>
+            <p>Short-video social app with full-screen Pulses, private Circles, and an Inner inbox. Includes Jolt, a filtered social space for ages 13–15 with parent messaging controls.</p>
+            <a class="product-link" href="https://tryzilt.app/" target="_blank" rel="noopener">tryzilt.app<span class="sr-only"> (Zilt website, opens in a new tab)</span><span aria-hidden="true"> ↗</span></a>
+          </li>
+          <li class="product reveal" style="--c:#BE185D">
+            <div class="product-top"><img class="product-logo" src="assets/apps/our-people.png" width="52" height="52" alt="Our People logo" loading="lazy" decoding="async"><span class="product-tag">Family caregiving</span></div>
+            <h3>Our People</h3>
+            <p>One quiet place for a small, invited circle caring for an aging parent: daily check-ins, who has which duty, and an emergency packet that's always ready.</p>
+            <a class="product-link" href="https://tryourpeople.app/" target="_blank" rel="noopener">tryourpeople.app<span class="sr-only"> (Our People website, opens in a new tab)</span><span aria-hidden="true"> ↗</span></a>
+          </li>
+          <li class="product reveal" style="--c:#B91C1C">
+            <div class="product-top"><img class="product-logo" src="assets/apps/radr.png" width="52" height="52" alt="RADR logo" loading="lazy" decoding="async"><span class="product-tag">Driving</span></div>
+            <h3>RADR</h3>
+            <p>A driving companion with a live map of police, radar, cameras, and hazards, plus a Black Box that logs every drive.</p>
+            <a class="product-link" href="https://fep0gxqfi1xjmq14cu1jh-web.rork.live" target="_blank" rel="noopener">Open RADR<span class="sr-only"> (RADR web app, opens in a new tab)</span><span aria-hidden="true"> ↗</span></a>
+          </li>
+          <li class="product reveal" style="--c:#C2410C">
+            <div class="product-top"><img class="product-logo" src="assets/apps/wrace.png" width="52" height="52" alt="WRACE logo" loading="lazy" decoding="async"><span class="product-tag">Racing game</span></div>
+            <h3>WRACE</h3>
+            <p>A 3D garage and racing sim: build a car in the bay with real parts, then take it to real tracks for drag, street, circuit, and oval events.</p>
+            <a class="product-link" href="https://tdus47a1sse2iygdmq74l-web-wrace.rork.live" target="_blank" rel="noopener">Open WRACE<span class="sr-only"> (WRACE web app, opens in a new tab)</span><span aria-hidden="true"> ↗</span></a>
+          </li>
+          <li class="product reveal" style="--c:#6D28D9">
+            <div class="product-top"><img class="product-logo" src="assets/apps/afterglow.png" width="52" height="52" alt="Afterglow logo" loading="lazy" decoding="async"><span class="product-tag">Arcade game</span></div>
+            <h3>Afterglow</h3>
+            <p>A one-thumb arcade game set in a neon night market, for iPhone and iPad.</p>
+            <a class="product-link" href="https://tryafterglow.app/" target="_blank" rel="noopener">tryafterglow.app<span class="sr-only"> (Afterglow website, opens in a new tab)</span><span aria-hidden="true"> ↗</span></a>
+          </li>
+          <li class="product reveal" style="--c:#334155">
+            <div class="product-top"><img class="product-logo" src="assets/apps/noir.png" width="52" height="52" alt="Noir logo" loading="lazy" decoding="async"><span class="product-tag">Social casino game</span></div>
+            <h3>Noir</h3>
+            <p>A free-to-play social casino game played with virtual coins only. 18+, no real-money gambling.</p>
+            <a class="product-link" href="https://ivvjsw68rwbrkh312y96z-web.rork.live" target="_blank" rel="noopener">Open Noir<span class="sr-only"> (Noir web app, opens in a new tab)</span><span aria-hidden="true"> ↗</span></a>
+          </li>
+        </ul>
+</div></section>
 
-<div class="card"><div class="k">Peloton · Team Scaling</div><h3>From 10 agents to teams of 50+</h3>
-<p class="lbl">Challenge</p><p>Rapid company growth demanded scalable support across B2B and B2C channels.</p>
-<p class="lbl">What she did</p><p>Grew from Team Lead of 10 technical agents to Senior Supervisor leading 50+ associates and specialists; built training programs, tailored development plans, and clear KPIs.</p>
-<div class="result">50% team promotion rate · −20% new-hire ramp-up time · CSAT +95%</div></div>
-
-<div class="card"><div class="k">OxeFit · Service Recovery</div><h3>Reputation turnaround: BBB F → A</h3>
-<p class="lbl">Challenge</p><p>High-value purchases, disputes, and service failures were damaging trust.</p>
-<p class="lbl">What she did</p><p>Resolved executive-level escalations balancing financial risk and retention, standardized 10+ critical journeys, and led the XS1 Self-Service Repair program.</p>
-<div class="result">BBB rating improved from F to A</div></div>
-
-<div class="card"><div class="k">Peloton · Operational Excellence</div><h3>Disputes, escalations &amp; fraud</h3>
-<p class="lbl">Challenge</p><p>Recurring escalations, vendor disputes, and fraud added cost and friction.</p>
-<p class="lbl">What she did</p><p>Ran root cause analysis with Product, Engineering, and Customer Success; redesigned workflows with automated triage; launched a risk and fraud prevention program.</p>
-<div class="result">−35% escalations · +40% dispute efficiency · −20% fraud · $50K annual savings</div></div>
-
-<div class="card"><div class="k">TK Hub LLC · Operations</div><h3>Launching apps as Co-Founder &amp; COO</h3>
-<p class="lbl">Context</p><p>App studio shipping apps such as Curb, Booked, and Zilt on the App Store and Google Play.</p>
-<p class="lbl">What she does</p><p>Runs day-to-day operations and priorities, reviews UX, handles support and bug triage, and uses Claude and ChatGPT daily, e.g., reviewing the Curb app's UX and launch readiness.</p>
-<div class="result">Operations, support &amp; launch readiness for a multi-app studio</div></div>
-</div></div></section>
-
-<section id="skills"><div class="wrap">
-<div class="eyebrow">Skills &amp; tools</div><h2>What she brings</h2>
+<section class="section" id="skills" aria-labelledby="skills-title">
+<div class="container">
+<div class="head reveal"><p class="eyebrow">Skills &amp; tools</p><h2 id="skills-title">What she <em>brings</em></h2></div>
 <div class="skills">
-<div class="skill"><h3>CX Leadership</h3><div class="tags"><span class="tag">CX strategy &amp; operations</span><span class="tag">Managing team leads, supervisors &amp; managers</span><span class="tag">Outsourced BPO management</span><span class="tag">Multi-tier team leadership</span><span class="tag">Customer retention &amp; loyalty</span><span class="tag">Operational excellence</span></div></div>
-<div class="skill"><h3>Automation &amp; AI</h3><div class="tags"><span class="tag">AI support agents (Zendesk)</span><span class="tag">Claude &amp; ChatGPT (daily)</span><span class="tag">Self-service &amp; knowledge base</span><span class="tag">Technical writing</span><span class="tag">Process design &amp; SOPs</span><span class="tag">Automated triage</span></div></div>
-<div class="skill"><h3>Operations</h3><div class="tags"><span class="tag">Phone, email, chat &amp; social</span><span class="tag">CSAT, QA, NPS, FCR &amp; AHT</span><span class="tag">Escalation &amp; service recovery</span><span class="tag">Dispute &amp; chargeback management</span><span class="tag">Resource allocation &amp; cost improvement</span><span class="tag">Vendor coordination</span></div></div>
-<div class="skill"><h3>Platforms</h3><div class="tags"><span class="tag">Zendesk</span><span class="tag">Salesforce</span><span class="tag">Gorgias</span><span class="tag">SendGrid (HTML email)</span><span class="tag">Shopify</span><span class="tag">Affirm</span><span class="tag">PayPal</span><span class="tag">QuickBooks</span><span class="tag">Apple</span><span class="tag">Amazon</span><span class="tag">TrueMed</span></div></div>
+<div class="skill reveal"><div class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" width="22" height="22"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M16 19v-1a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v1M9 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6ZM22 19v-1a4 4 0 0 0-3-3.9M16 4.1a3 3 0 0 1 0 5.8"/></svg></div><h3>CX Leadership</h3><ul class="chips"><li>CX strategy &amp; operations</li><li>Managing team leads, supervisors &amp; managers</li><li>Outsourced BPO management</li><li>Multi-tier team leadership</li><li>Customer retention &amp; loyalty</li><li>Operational excellence</li></ul></div>
+<div class="skill reveal"><div class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" width="22" height="22"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M12 3v3M12 18v3M3 12h3M18 12h3M6.3 6.3l2.1 2.1M15.6 15.6l2.1 2.1M6.3 17.7l2.1-2.1M15.6 8.4l2.1-2.1M12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6Z"/></svg></div><h3>Automation &amp; AI</h3><ul class="chips"><li>AI support agents (Zendesk)</li><li>Claude &amp; ChatGPT (daily)</li><li>Self-service &amp; knowledge base</li><li>Technical writing</li><li>Process design &amp; SOPs</li><li>Automated triage</li></ul></div>
+<div class="skill reveal"><div class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" width="22" height="22"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M4 19V5M4 19h16M8 15l3-4 3 2 5-6"/></svg></div><h3>Operations</h3><ul class="chips"><li>Phone, email, chat &amp; social</li><li>CSAT, QA, NPS, FCR &amp; AHT</li><li>Escalation &amp; service recovery</li><li>Dispute &amp; chargeback management</li><li>Resource allocation &amp; cost improvement</li><li>Vendor coordination</li></ul></div>
+<div class="skill reveal"><div class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" width="22" height="22"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M4 5h16v11H4zM9 20h6M12 16v4"/></svg></div><h3>Platforms</h3><ul class="chips"><li>Zendesk</li><li>Salesforce</li><li>Gorgias</li><li>SendGrid (HTML email)</li><li>Shopify</li><li>Affirm</li><li>PayPal</li><li>QuickBooks</li><li>Apple</li><li>Amazon</li><li>TrueMed</li></ul></div>
 </div>
 <div class="edu">
-<div class="skill"><h3>Education</h3><p>B.A., Interdisciplinary Design and Psychology<br>University of North Texas</p></div>
-<div class="skill"><h3>Certifications</h3><p>CCXP (Certified Customer Experience Professional) · Google Project Management · Google IT Support Professional · Certified Dangerous Goods Professional (CDGP)</p></div>
+<div class="skill reveal"><div class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" width="22" height="22"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="m2 9 10-5 10 5-10 5L2 9Zm4 2v5c3 2.5 9 2.5 12 0v-5"/></svg></div><h3>Education</h3><p><strong>B.A., Interdisciplinary Design and Psychology</strong><br>University of North Texas</p></div>
+<div class="skill reveal"><div class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" width="22" height="22"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="m8.5 12.5 2.5 2.5 4.5-5M12 3l7 3v5c0 4.5-3 8.3-7 10-4-1.7-7-5.5-7-10V6l7-3Z"/></svg></div><h3>Certifications</h3><ul class="certs"><li><b>CCXP</b> · Certified Customer Experience Professional</li><li>Google Project Management</li><li>Google IT Support Professional</li><li>Certified Dangerous Goods Professional (CDGP)</li></ul></div>
 </div></div></section>
 
-<section id="contact" class="contact"><div class="wrap">
-<div class="eyebrow">Contact</div><h2>Let's talk CX leadership</h2>
+<section class="contact" id="contact" aria-labelledby="contact-title">
+<div class="hero-bg" aria-hidden="true"></div>
+<div class="container reveal">
+<p class="eyebrow" style="color:#FFD08A">Contact</p>
+<h2 id="contact-title">Let's talk <em>CX leadership.</em></h2>
 <p>Ciara is open to remote customer experience leadership roles. Based in the Dallas–Fort Worth, TX area.</p>
-<div class="btns">
-<a class="btn primary" href="mailto:wolfxchii@gmail.com">wolfxchii@gmail.com</a>
-<a class="btn ghost" href="https://www.linkedin.com/in/ciaramosley" target="_blank" rel="noopener">linkedin.com/in/ciaramosley</a>
-<a class="btn ghost" href="Ciara-Mosley-Resume.pdf" download>Download résumé (PDF)</a>
+<div class="cta-row">
+<a class="btn btn-primary" href="mailto:wolfxchii@gmail.com?subject=CX%20leadership%20opportunity">wolfxchii@gmail.com</a>
+<a class="btn btn-ghost" href="https://www.linkedin.com/in/ciaramosley" target="_blank" rel="noopener">linkedin.com/in/ciaramosley<span class="sr-only"> (opens in a new tab)</span></a>
+<a class="btn btn-ghost" href="Ciara-Mosley-Resume.pdf" download>Download résumé (PDF)</a>
 </div></div></section>
-
-<footer>© 2026 Ciara Mosley</footer>
+</main>
+<footer><div class="container"><span>© 2026 Ciara Mosley</span><span><a href="https://tkhub.app/" target="_blank" rel="noopener">TK Hub LLC</a> · <a href="#top">Back to top ↑</a></span></div></footer>
+<button class="to-top" aria-label="Back to top"><svg aria-hidden="true" viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M11 20V7.8l-5.6 5.6L4 12l8-8 8 8-1.4 1.4L13 7.8V20h-2Z"/></svg></button>
+<script>
+(()=>{const d=document.documentElement;d.classList.add('js');
+const rm=matchMedia('(prefers-reduced-motion: reduce)').matches;
+// split hero name into words
+document.querySelectorAll('.split').forEach(h=>{let i=0;[...h.childNodes].forEach(n=>{const make=(t,em)=>t.split(/(\s+)/).map(p=>{if(!p.trim())return document.createTextNode(p);const w=document.createElement('span');w.className='w';const s=document.createElement(em?'em':'span');s.textContent=p;s.style.setProperty('--i',i++);w.append(s);return w});const parts=n.nodeType===3?make(n.textContent):make(n.textContent,true);n.replaceWith(...parts)})});
+requestAnimationFrame(()=>requestAnimationFrame(()=>d.classList.add('loaded')));
+const header=document.querySelector('.site-header'),top=document.querySelector('.to-top'),bar=document.querySelector('.scroll-bar'),tl=document.querySelector('.timeline'),prog=document.querySelector('.timeline .progress');
+const onScroll=()=>{const y=scrollY,h=d.scrollHeight-innerHeight;header.classList.toggle('scrolled',y>10);top.classList.toggle('show',y>700);bar.style.transform=`scaleX(${h>0?y/h:0})`;
+if(tl){const r=tl.getBoundingClientRect(),p=Math.min(Math.max((innerHeight*.6-r.top)/r.height,0),1);prog.style.height=(p*(r.height-16))+'px'}spy()};
+// active nav
+const links=[...document.querySelectorAll('.nav-links a[href^="#"]')],secs=links.map(a=>[a,document.querySelector(a.getAttribute('href'))]);
+const spy=()=>{const m=innerHeight*.4;let cur=null;secs.forEach(([a,s])=>{if(s&&s.getBoundingClientRect().top<=m)cur=a});if(innerHeight+scrollY>=d.scrollHeight-4)cur=links[links.length-1];links.forEach(a=>{a.classList.toggle('active',a===cur);a===cur?a.setAttribute('aria-current','true'):a.removeAttribute('aria-current')})};
+let tick=false;addEventListener('scroll',()=>{if(!tick){tick=true;requestAnimationFrame(()=>{tick=false;onScroll()})}},{passive:true});onScroll();
+top.addEventListener('click',()=>{scrollTo({top:0,behavior:rm?'auto':'smooth'});document.getElementById('top').focus({preventScroll:true})});
+// mobile menu
+const tg=document.querySelector('.nav-toggle'),nl=document.getElementById('nav-links');const close=()=>{nl.classList.remove('open');tg.setAttribute('aria-expanded','false')};
+tg.addEventListener('click',()=>{const o=nl.classList.toggle('open');tg.setAttribute('aria-expanded',String(o))});nl.addEventListener('click',e=>{if(e.target.closest('a'))close()});addEventListener('keydown',e=>{if(e.key==='Escape')close()});
+// count-up
+const count=el=>{const end=parseFloat(el.dataset.count),dec=+el.dataset.dec||0;if(rm){return}const t0=performance.now(),dur=1400;const f=t=>{const p=Math.min((t-t0)/dur,1),e=1-Math.pow(1-p,3);el.textContent=(end*e).toFixed(dec);if(p<1)requestAnimationFrame(f)};el.textContent=(0).toFixed(dec);requestAnimationFrame(f)};
+// reveal with stagger
+const items=document.querySelectorAll('.reveal'),g=new Map();items.forEach(el=>{const p=el.parentElement,i=g.get(p)||0;el.style.setProperty('--d',Math.min(i,6)*80+'ms');g.set(p,i+1)});
+if('IntersectionObserver'in window&&!rm){const io=new IntersectionObserver(es=>es.forEach(en=>{if(en.isIntersecting){en.target.classList.add('in');en.target.querySelectorAll('[data-count]').forEach(count);io.unobserve(en.target)}}),{rootMargin:'0px 0px -8% 0px',threshold:.08});items.forEach(el=>io.observe(el))}else items.forEach(el=>el.classList.add('in'));
+// cursor glow on case cards
+document.querySelectorAll('.case').forEach(c=>c.addEventListener('pointermove',e=>{const r=c.getBoundingClientRect();c.style.setProperty('--mx',e.clientX-r.left+'px');c.style.setProperty('--my',e.clientY-r.top+'px')}));
+})();
+</script>
 </body></html>
