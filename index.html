@@ -521,8 +521,11 @@ html{scroll-behavior:auto}
 #services .cm-tier--featured{background:linear-gradient(180deg,var(--teal-3),var(--teal-2));border:2px solid var(--coral);box-shadow:0 20px 50px rgba(0,0,0,.25)}
 #services .cm-tier__tag{display:inline-block;font-size:.72rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--coral);background:var(--coral-soft);padding:4px 10px;border-radius:999px;margin-bottom:14px}
 #services .cm-tier__name{font-size:1.25rem}
-#services .cm-tier__price{font-size:2.6rem;font-weight:900;margin:8px 0 18px;line-height:1}
-#services .cm-tier__price span{display:block;font-size:.8rem;font-weight:400;color:var(--muted);margin-top:8px}
+#services .cm-tier__price{font-size:clamp(1.55rem,2.1vw,2.15rem);font-weight:900;margin:8px 0 18px;line-height:1.15;letter-spacing:-.02em}
+#services .cm-tier__price span{display:block;font-size:.8rem;font-weight:400;letter-spacing:0;color:var(--muted);margin-top:8px}
+#services .cm-smallbiz{margin-top:20px;padding:22px 26px;border-radius:20px;border:1px dashed rgba(255,122,102,.45);background:rgba(255,255,255,.04);display:flex;justify-content:space-between;align-items:center;gap:20px 28px;flex-wrap:wrap}
+#services .cm-smallbiz h4{font-size:1.15rem;margin:0 0 4px}
+#services .cm-smallbiz p{color:var(--muted);max-width:640px}
 #services .cm-tier ul{list-style:none;padding:18px 0 0;margin:0;border-top:1px solid var(--line);display:grid;gap:10px}
 #services .cm-tier li{padding-left:22px;position:relative;font-size:.95rem}
 #services .cm-tier li::before{content:"";position:absolute;left:0;top:.6em;width:10px;height:2px;background:var(--coral)}
@@ -546,15 +549,15 @@ html{scroll-behavior:auto}
 @media (max-width:900px){#services .cm-grid2,#services .cm-tiers,#services .cm-follow{grid-template-columns:1fr}
   #services .cm-proc{grid-template-columns:1fr;border-top:0;border-left:2px solid var(--coral);padding-left:22px}
   #services .cm-proc li{padding:0 0 22px} #services .cm-proc li::before{left:-31px;top:4px}
-  #services .cm-dels{columns:1} #services{padding:72px 20px} #services .cm-cta{padding:32px}}
+  #services .cm-dels{columns:1} #services{padding:72px 20px} #services .cm-cta,#services .cm-smallbiz{padding:28px 22px}}
 </style>
 <section id="services" aria-labelledby="services-title">
   <div class="cm-wrap">
     <p class="cm-eyebrow">Services</p>
     <h2 id="services-title">The <em>AI Support Audit</em></h2>
-    <p class="cm-lede">A two-week, fixed-price review of your help desk, knowledge base, AI agent, and escalation paths, ending in a prioritized roadmap your team can act on.</p>
+    <p class="cm-lede">A two-week review of your help desk, knowledge base, AI agent, and escalation paths, ending in a prioritized roadmap your team can act on.</p>
     <ul class="cm-facts">
-      <li><b>Fixed price</b> from $3,500</li><li><b>About 2 weeks</b></li><li><b>10-500</b> employees</li><li>Zendesk · Gorgias · Intercom</li>
+      <li><b>Starting at</b> $3,500</li><li><b>About 2 weeks</b></li><li><b>10-500</b> employees</li><li>Zendesk · Gorgias · Intercom</li>
     </ul>
 
     <div class="cm-block cm-grid2">
@@ -574,23 +577,27 @@ html{scroll-behavior:auto}
       <article class="cm-tier">
         <p class="cm-tier__tag">For one help desk and one brand</p>
         <h4 class="cm-tier__name">Focused Audit</h4>
-        <p class="cm-tier__price">$3,500<span>starting estimate · about 2 weeks</span></p>
+        <p class="cm-tier__price">Starting at $3,500<span>about 2 weeks</span></p>
         <ul><li>All five review areas on one help desk and one brand</li><li>Ticket-mix analysis on a recent sample</li><li>Up to 3 stakeholder interviews</li><li>Written report and prioritized roadmap</li><li>60-minute live readout</li></ul>
       </article>
       <article class="cm-tier cm-tier--featured">
         <p class="cm-tier__tag">Most teams start here</p>
         <h4 class="cm-tier__name">Full Audit</h4>
-        <p class="cm-tier__price">$6,500<span>starting estimate · about 2 weeks</span></p>
+        <p class="cm-tier__price">Quote on request<span>Custom scope · about 2 weeks</span></p>
         <ul><li>Everything in Focused Audit</li><li>Up to 2 brands or 2 help desk instances</li><li>Up to 6 stakeholder interviews, including frontline agents</li><li>Sample review of real AI agent conversations</li><li>Escalation mapping across tiers and any outsourced partner</li><li>Estimated impact for every roadmap item</li><li>90-minute readout plus a 30-day follow-up call</li></ul>
       </article>
       <article class="cm-tier">
         <p class="cm-tier__tag">Findings plus hands-on fixes</p>
         <h4 class="cm-tier__name">Audit + Quick-Win Sprint</h4>
-        <p class="cm-tier__price">$11,500<span>starting estimate · about 4 weeks</span></p>
+        <p class="cm-tier__price">Quote on request<span>Custom scope · about 4 weeks</span></p>
         <ul><li>Everything in Full Audit</li><li>A two-week sprint after the readout, implementing the top quick wins (up to 40 hours of hands-on work)</li><li>Knowledge base and AI agent configuration updates made directly in your help desk</li><li>Before-and-after measurement plan so you can track what changed</li></ul>
       </article>
       </div>
-      <p class="cm-note">Fixed prices in USD, confirmed in writing before work starts. Book an implementation project within 30 days of your readout and 50% of the audit fee is credited toward it.</p>
+      <aside class="cm-smallbiz">
+        <div><h4>Smaller team or tighter budget?</h4><p>Ask about custom pricing for small businesses.</p></div>
+        <a class="cm-btn" href="#contact">Ask about custom pricing</a>
+      </aside>
+      <p class="cm-note">The Focused Audit starts at $3,500. Full Audit and the Quick-Win Sprint are quoted for your scope and confirmed in writing before work starts. Book an implementation project within 30 days of your readout and 50% of the audit fee is credited toward it.</p>
       <ul class="cm-follow"><li><strong>Implementation project.</strong> A fixed-scope project to deliver the larger roadmap items: knowledge base rebuild, AI agent reconfiguration, routing and escalation redesign. Scoped and quoted from the roadmap, typically $5,000 to $20,000 depending on scope (estimate).</li><li><strong>Monthly retainer.</strong> Ongoing advisory and hands-on tuning: a monthly review of your support and AI agent performance, knowledge base upkeep, and a standing call with your team. From $2,500 per month (estimate), month to month.</li></ul>
     </div>
 
