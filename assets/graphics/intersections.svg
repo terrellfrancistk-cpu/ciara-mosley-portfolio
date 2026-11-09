@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 420" fill="none">
+  <defs>
+    <radialGradient id="halo">
+      <stop stop-color="#CA97FF" stop-opacity=".48"/>
+      <stop offset="1" stop-color="#CA97FF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ribbon" x1="104" y1="320" x2="490" y2="71" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C19CEB" stop-opacity=".15"/>
+      <stop offset=".48" stop-color="#E0BEFF"/>
+      <stop offset="1" stop-color="#F4C5AE"/>
+    </linearGradient>
+    <pattern id="grid" width="26" height="26" patternUnits="userSpaceOnUse">
+      <path d="M26 0H0v26" stroke="#B59ACA" stroke-opacity=".18"/>
+    </pattern>
+  </defs>
+  <path d="M0 0h580v420H0z" fill="url(#grid)"/>
+  <ellipse cx="290" cy="210" rx="271" ry="211" fill="url(#halo)"/>
+  <g stroke="#B59ACA" stroke-opacity=".36">
+    <circle cx="290" cy="210" r="162" stroke-dasharray="2 6"/>
+    <path d="M290 12v396M15 210h550M142 62l296 296M438 62 142 358" stroke-dasharray="3 6"/>
+  </g>
+  <g stroke="url(#ribbon)">
+    <g transform="rotate(-32 290 210)">
+      <ellipse cx="290" cy="210" rx="233" ry="72"/>
+      <ellipse cx="290" cy="210" rx="211" ry="65"/>
+      <ellipse cx="290" cy="210" rx="189" ry="58"/>
+      <ellipse cx="290" cy="210" rx="167" ry="51"/>
+      <ellipse cx="290" cy="210" rx="145" ry="44"/>
+      <ellipse cx="290" cy="210" rx="123" ry="37"/>
+    </g>
+    <g transform="rotate(33 290 210)">
+      <ellipse cx="290" cy="210" rx="233" ry="72"/>
+      <ellipse cx="290" cy="210" rx="211" ry="65"/>
+      <ellipse cx="290" cy="210" rx="189" ry="58"/>
+      <ellipse cx="290" cy="210" rx="167" ry="51"/>
+      <ellipse cx="290" cy="210" rx="145" ry="44"/>
+      <ellipse cx="290" cy="210" rx="123" ry="37"/>
+    </g>
+  </g>
+  <path d="M290 176c2 22 12 32 34 34-22 2-32 12-34 34-2-22-12-32-34-34 22-2 32-12 34-34Z" fill="#F8E4FF"/>
+  <g stroke="#F8E4FF" stroke-opacity=".7">
+    <path d="M112 68v20m-10-10h20m354 249v20m-10-10h20M472 92v12m-6-6h12M100 306v12m-6-6h12"/>
+    <circle cx="188" cy="128" r="5" fill="#191821"/>
+    <circle cx="392" cy="292" r="5" fill="#191821"/>
+  </g>
+</svg>

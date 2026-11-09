@@ -34,3 +34,18 @@ document.addEventListener("keydown", (event) => {
     toggle.focus();
   }
 });
+
+if (matchMedia("(prefers-reduced-motion: no-preference)").matches && "IntersectionObserver" in window) {
+  const observer = new IntersectionObserver((entries) => {
+    for (const entry of entries) {
+      if (!entry.isIntersecting) continue;
+      entry.target.classList.add("is-entering");
+      observer.unobserve(entry.target);
+    }
+  }, { rootMargin: "0px 0px -5% 0px", threshold: .08 });
+
+  document.querySelectorAll(
+    ".section-heading, .story-layout > *, .project-grid > li, .metric-grid > li, " +
+    ".values-intro, .values > li, .feature, .job, .contact-layout > *, .cm-block > h2"
+  ).forEach((element) => observer.observe(element));
+}

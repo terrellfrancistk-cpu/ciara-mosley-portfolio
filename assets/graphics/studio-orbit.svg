@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 380" fill="none">
+  <defs>
+    <radialGradient id="light">
+      <stop stop-color="#B78CEF" stop-opacity=".45"/>
+      <stop offset="1" stop-color="#A88BD2" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="wire" x1="70" y1="288" x2="500" y2="63" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A88BD2" stop-opacity=".24"/>
+      <stop offset=".53" stop-color="#F1DCFF" stop-opacity=".92"/>
+      <stop offset="1" stop-color="#D9B6AA" stop-opacity=".32"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="280" cy="192" rx="266" ry="184" fill="url(#light)"/>
+  <g stroke="#BD9EE8" opacity=".28">
+    <circle cx="280" cy="192" r="82"/>
+    <circle cx="280" cy="192" r="120"/>
+    <circle cx="280" cy="192" r="158" stroke-dasharray="2 5"/>
+    <path d="M280 21v342M28 192h504M159 71l242 242m0-242L159 313" stroke-dasharray="3 7"/>
+  </g>
+  <g stroke="url(#wire)">
+    <ellipse cx="280" cy="192" rx="240" ry="92" transform="rotate(-24 280 192)"/>
+    <ellipse cx="280" cy="192" rx="224" ry="109" transform="rotate(23 280 192)" stroke-dasharray="3 6"/>
+    <path d="M26 241c81 61 185 68 294 39 104-28 190-88 220-152"/>
+  </g>
+  <g fill="#F1DCFF">
+    <circle cx="92" cy="239" r="3"/>
+    <circle cx="465" cy="87" r="4"/>
+    <circle cx="507" cy="217" r="2"/>
+    <circle cx="203" cy="43" r="2"/>
+    <path d="M123 76v22m-11-11h22m274 211v24m-12-12h24M482 140v12m-6-6h12" stroke="#F1DCFF" stroke-linecap="round"/>
+  </g>
+  <g stroke="#D9B6AA" opacity=".67">
+    <path d="M40 39h28m-28 0v28m480-28h-28m28 0v28M40 341h28m-28 0v-28m480 28h-28m28 0v-28"/>
+    <circle cx="92" cy="239" r="9"/>
+    <circle cx="465" cy="87" r="10"/>
+  </g>
+</svg>
